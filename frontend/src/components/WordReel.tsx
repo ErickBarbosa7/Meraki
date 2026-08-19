@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import type { ReactNode } from "react";
 import type { Word } from "../types/word";
 
 const PLACEHOLDER = "MERAKI";
@@ -34,6 +35,7 @@ interface WordReelProps {
   isSpinning: boolean;
   isInitialLoading: boolean;
   onSpinComplete: () => void;
+  action?: ReactNode;
 }
 
 export default function WordReel({
@@ -42,6 +44,7 @@ export default function WordReel({
   isSpinning,
   isInitialLoading,
   onSpinComplete,
+  action,
 }: WordReelProps) {
   const [strip, setStrip] = useState<Word[] | null>(null);
   const [centeredIndex, setCenteredIndex] = useState(BUFFERS - 1);
@@ -97,7 +100,7 @@ export default function WordReel({
   if (!strip) {
     return (
       <div className="flex h-32 items-center justify-center overflow-hidden">
-        <span className="font-display select-none text-[clamp(2.25rem,9vw,3.75rem)] font-medium tracking-tight text-meraki-secondary/50">
+        <span className="font-display select-none text-reel font-medium tracking-tight text-oli-primary/40">
           {PLACEHOLDER}
         </span>
       </div>
@@ -128,14 +131,17 @@ export default function WordReel({
         {strip.map((w, k) => (
           <div key={k} className="flex h-32 w-full items-center justify-center">
             <span
-              className={`font-display select-none text-[clamp(2.25rem,9vw,3.75rem)] font-medium tracking-tight transition-opacity duration-500 ${
-                k === centeredIndex ? "text-meraki-primary" : "text-meraki-secondary/40"
+              className={`font-display select-none text-reel font-medium tracking-tight transition-opacity duration-500 ${
+                k === centeredIndex ? "text-oli-primary" : "text-oli-muted/40"
               } ${k !== centeredIndex && !isSpinning ? "opacity-0" : "opacity-100"} ${
                 k === centeredIndex && !isSpinning ? "animate-reel-land" : ""
               }`}
             >
               {w.word}
             </span>
+            {k === centeredIndex && !isSpinning && action && (
+              <span className="ml-4 md:hidden">{action}</span>
+            )}
           </div>
         ))}
       </div>

@@ -6,7 +6,7 @@
     <link rel="apple-touch-icon" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Meraki — Descubre palabras inusuales del mundo y hazlas parte de tu vocabulario. Discover something new." />
-    <meta name="theme-color" content="#F7F6F2" />
+    <meta name="theme-color" content="#161616" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Meraki" />
@@ -21,9 +21,8 @@
 
     <script>
       try {
-        var t = localStorage.getItem("meraki-theme");
-        if (t === "dark" || (!t && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-          document.documentElement.classList.add("dark");
+        if (localStorage.getItem("oli-theme") === "light") {
+          document.documentElement.classList.add("light");
         }
       } catch (e) {}
     </script>

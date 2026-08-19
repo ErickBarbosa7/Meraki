@@ -1,62 +1,2473 @@
 [
-  { "id": 1, "word": "Meraki", "language": "Greek", "category": "Soul", "difficulty": "rare" },
-  { "id": 2, "word": "Saudade", "language": "Portuguese", "category": "Emotion", "difficulty": "rare" },
-  { "id": 3, "word": "Ikigai", "language": "Japanese", "category": "Philosophy", "difficulty": "medium" },
-  { "id": 4, "word": "Komorebi", "language": "Japanese", "category": "Nature", "difficulty": "rare" },
-  { "id": 5, "word": "Fernweh", "language": "German", "category": "Emotion", "difficulty": "rare" },
-  { "id": 6, "word": "Serendipity", "language": "English", "category": "Philosophy", "difficulty": "medium" },
-  { "id": 7, "word": "Ubuntu", "language": "Zulu", "category": "Philosophy", "difficulty": "easy" },
-  { "id": 8, "word": "Hygge", "language": "Danish", "category": "Lifestyle", "difficulty": "easy" },
-  { "id": 9, "word": "Toska", "language": "Russian", "category": "Emotion", "difficulty": "rare" },
-  { "id": 10, "word": "Sonder", "language": "English", "category": "Philosophy", "difficulty": "medium" },
-  { "id": 11, "word": "Yugen", "language": "Japanese", "category": "Philosophy", "difficulty": "rare" },
-  { "id": 12, "word": "Wabi-sabi", "language": "Japanese", "category": "Philosophy", "difficulty": "rare" },
-  { "id": 13, "word": "Duende", "language": "Spanish", "category": "Art", "difficulty": "rare" },
-  { "id": 14, "word": "Gezellig", "language": "Dutch", "category": "Lifestyle", "difficulty": "rare" },
-  { "id": 15, "word": "Lagom", "language": "Swedish", "category": "Philosophy", "difficulty": "easy" },
-  { "id": 16, "word": "Kilig", "language": "Filipino", "category": "Emotion", "difficulty": "rare" },
-  { "id": 17, "word": "Trepverter", "language": "Yiddish", "category": "Humor", "difficulty": "rare" },
-  { "id": 18, "word": "Petrichor", "language": "English", "category": "Nature", "difficulty": "rare" },
-  { "id": 19, "word": "Apricity", "language": "English", "category": "Nature", "difficulty": "rare" },
-  { "id": 20, "word": "Cwtch", "language": "Welsh", "category": "Emotion", "difficulty": "rare" },
-  { "id": 21, "word": "Hiraeth", "language": "Welsh", "category": "Emotion", "difficulty": "rare" },
-  { "id": 22, "word": "Mamihlapinatapai", "language": "Yaghan", "category": "Emotion", "difficulty": "rare" },
-  { "id": 23, "word": "Kyoiku", "language": "Japanese", "category": "Education", "difficulty": "medium" },
-  { "id": 24, "word": "Syrma", "language": "Arabic", "category": "Nature", "difficulty": "rare" },
-  { "id": 25, "word": "Namaste", "language": "Sanskrit", "category": "Philosophy", "difficulty": "easy" },
-  { "id": 26, "word": "Aurora", "language": "Latin", "category": "Nature", "difficulty": "easy" },
-  { "id": 27, "word": "Vesper", "language": "Latin", "category": "Nature", "difficulty": "medium" },
-  { "id": 28, "word": "Seren", "language": "Welsh", "category": "Nature", "difficulty": "easy" },
-  { "id": 29, "word": "Fika", "language": "Swedish", "category": "Lifestyle", "difficulty": "easy" },
-  { "id": 30, "word": "Sisu", "language": "Finnish", "category": "Character", "difficulty": "easy" },
-  { "id": 31, "word": "Gigil", "language": "Filipino", "category": "Emotion", "difficulty": "rare" },
-  { "id": 32, "word": "Kintsugi", "language": "Japanese", "category": "Art", "difficulty": "medium" },
-  { "id": 33, "word": "Tundra", "language": "Russian", "category": "Nature", "difficulty": "easy" },
-  { "id": 34, "word": "Breeze", "language": "English", "category": "Nature", "difficulty": "easy" },
-  { "id": 35, "word": "Beluwo", "language": "Usbek", "category": "Sound", "difficulty": "rare" },
-  { "id": 36, "word": "Ǥoa", "language": "Khoisan", "category": "Nature", "difficulty": "rare" },
-  { "id": 37, "word": "Cafuné", "language": "Portuguese", "category": "Emotion", "difficulty": "rare" },
-  { "id": 38, "word": "Untranslatable", "language": "English", "category": "Philosophy", "difficulty": "medium" },
-  { "id": 39, "word": "Mellifluous", "language": "English", "category": "Sound", "difficulty": "medium" },
-  { "id": 40, "word": "Sillage", "language": "French", "category": "Art", "difficulty": "rare" },
-  { "id": 41, "word": "Dérive", "language": "French", "category": "Philosophy", "difficulty": "rare" },
-  { "id": 42, "word": "Flâneur", "language": "French", "category": "Philosophy", "difficulty": "rare" },
-  { "id": 43, "word": "Nostalgia", "language": "Greek", "category": "Emotion", "difficulty": "easy" },
-  { "id": 44, "word": "Ethereal", "language": "English", "category": "Art", "difficulty": "medium" },
-  { "id": 45, "word": "Liminal", "language": "English", "category": "Philosophy", "difficulty": "rare" },
-  { "id": 46, "word": "Solstice", "language": "Latin", "category": "Nature", "difficulty": "easy" },
-  { "id": 47, "word": "Numen", "language": "Latin", "category": "Mystery", "difficulty": "rare" },
-  { "id": 48, "word": "Pneuma", "language": "Greek", "category": "Philosophy", "difficulty": "rare" },
-  { "id": 49, "word": "Eunoia", "language": "Greek", "category": "Philosophy", "difficulty": "rare" },
-  { "id": 50, "word": "Kairos", "language": "Greek", "category": "Philosophy", "difficulty": "medium" },
-  { "id": 51, "word": "Amanent", "language": "Greek", "category": "Sound", "difficulty": "rare" },
-  { "id": 52, "word": "Bioluminescence", "language": "English", "category": "Nature", "difficulty": "medium" },
-  { "id": 53, "word": "Aeolian", "language": "Greek", "category": "Nature", "difficulty": "rare" },
-  { "id": 54, "word": "Taranta", "language": "Italian", "category": "Sound", "difficulty": "rare" },
-  { "id": 55, "word": "Sprezzatura", "language": "Italian", "category": "Character", "difficulty": "rare" },
-  { "id": 56, "word": "Sigil", "language": "English", "category": "Mystery", "difficulty": "rare" },
-  { "id": 57, "word": "Satori", "language": "Japanese", "category": "Philosophy", "difficulty": "rare" },
-  { "id": 58, "word": "Attar", "language": "Persian", "category": "Nature", "difficulty": "rare" },
-  { "id": 59, "word": "Mirage", "language": "French", "category": "Nature", "difficulty": "easy" },
-  { "id": 60, "word": "Reverie", "language": "French", "category": "Emotion", "difficulty": "medium" }
+  {
+    "id": 1,
+    "word": "Meraki",
+    "language": "Greek",
+    "category": "Creativity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 2,
+    "word": "Eunoia",
+    "language": "Greek",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 3,
+    "word": "Eudaimonia",
+    "language": "Greek",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 4,
+    "word": "Ataraxia",
+    "language": "Greek",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 5,
+    "word": "Kairos",
+    "language": "Greek",
+    "category": "Time",
+    "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "word": "Areté",
+    "language": "Greek",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 7,
+    "word": "Philia",
+    "language": "Greek",
+    "category": "Love",
+    "difficulty": "medium"
+  },
+  {
+    "id": 8,
+    "word": "Agape",
+    "language": "Greek",
+    "category": "Love",
+    "difficulty": "medium"
+  },
+  {
+    "id": 9,
+    "word": "Saudade",
+    "language": "Portuguese",
+    "category": "Emotion",
+    "difficulty": "rare"
+  },
+  {
+    "id": 10,
+    "word": "Cafuné",
+    "language": "Portuguese",
+    "category": "Love",
+    "difficulty": "rare"
+  },
+  {
+    "id": 11,
+    "word": "Desenrascanço",
+    "language": "Portuguese",
+    "category": "Culture",
+    "difficulty": "rare"
+  },
+  {
+    "id": 12,
+    "word": "Hiraeth",
+    "language": "Welsh",
+    "category": "Emotion",
+    "difficulty": "rare"
+  },
+  {
+    "id": 13,
+    "word": "Cwtch",
+    "language": "Welsh",
+    "category": "Affection",
+    "difficulty": "rare"
+  },
+  {
+    "id": 14,
+    "word": "Fernweh",
+    "language": "German",
+    "category": "Travel",
+    "difficulty": "rare"
+  },
+  {
+    "id": 15,
+    "word": "Wanderlust",
+    "language": "German/English",
+    "category": "Travel",
+    "difficulty": "easy"
+  },
+  {
+    "id": 16,
+    "word": "Sehnsucht",
+    "language": "German",
+    "category": "Emotion",
+    "difficulty": "rare"
+  },
+  {
+    "id": 17,
+    "word": "Zeitgeist",
+    "language": "German",
+    "category": "Culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 18,
+    "word": "Schadenfreude",
+    "language": "German",
+    "category": "Emotion",
+    "difficulty": "rare"
+  },
+  {
+    "id": 19,
+    "word": "Gemütlichkeit",
+    "language": "German",
+    "category": "Feeling",
+    "difficulty": "rare"
+  },
+  {
+    "id": 20,
+    "word": "Lebensmüde",
+    "language": "German",
+    "category": "Emotion",
+    "difficulty": "rare"
+  },
+  {
+    "id": 21,
+    "word": "Komorebi",
+    "language": "Japanese",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 22,
+    "word": "Ikigai",
+    "language": "Japanese",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 23,
+    "word": "Wabi-sabi",
+    "language": "Japanese",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 24,
+    "word": "Yūgen",
+    "language": "Japanese",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 25,
+    "word": "Tsundoku",
+    "language": "Japanese",
+    "category": "Culture",
+    "difficulty": "rare"
+  },
+  {
+    "id": 26,
+    "word": "Kintsugi",
+    "language": "Japanese",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "id": 27,
+    "word": "Shinrin-yoku",
+    "language": "Japanese",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 28,
+    "word": "Natsukashii",
+    "language": "Japanese",
+    "category": "Nostalgia",
+    "difficulty": "rare"
+  },
+  {
+    "id": 29,
+    "word": "Mono no aware",
+    "language": "Japanese",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 30,
+    "word": "Itadakimasu",
+    "language": "Japanese",
+    "category": "Culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 31,
+    "word": "Ubuntu",
+    "language": "Nguni",
+    "category": "Philosophy",
+    "difficulty": "easy"
+  },
+  {
+    "id": 32,
+    "word": "Sobremesa",
+    "language": "Spanish",
+    "category": "Culture",
+    "difficulty": "rare"
+  },
+  {
+    "id": 33,
+    "word": "Duende",
+    "language": "Spanish",
+    "category": "Art",
+    "difficulty": "rare"
+  },
+  {
+    "id": 34,
+    "word": "Estrenar",
+    "language": "Spanish",
+    "category": "Everyday",
+    "difficulty": "easy"
+  },
+  {
+    "id": 35,
+    "word": "Querencia",
+    "language": "Spanish",
+    "category": "Emotion",
+    "difficulty": "rare"
+  },
+  {
+    "id": 36,
+    "word": "Friolero",
+    "language": "Spanish",
+    "category": "Curiosity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 37,
+    "word": "Madrugada",
+    "language": "Spanish",
+    "category": "Time",
+    "difficulty": "easy"
+  },
+  {
+    "id": 38,
+    "word": "Tertulia",
+    "language": "Spanish",
+    "category": "Culture",
+    "difficulty": "medium"
+  },
+  {
+    "id": 39,
+    "word": "Encandilar",
+    "language": "Spanish",
+    "category": "Emotion",
+    "difficulty": "rare"
+  },
+  {
+    "id": 40,
+    "word": "Albor",
+    "language": "Spanish",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 41,
+    "word": "Petrichor",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 42,
+    "word": "Apricity",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 43,
+    "word": "Halcyon",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 44,
+    "word": "Zephyr",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 45,
+    "word": "Aurora",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 46,
+    "word": "Crepuscule",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 47,
+    "word": "Twilight",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 48,
+    "word": "Moonbow",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 49,
+    "word": "Sunshower",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 50,
+    "word": "Afterglow",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 51,
+    "word": "Raindrop",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 52,
+    "word": "Solstice",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 53,
+    "word": "Equinox",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 54,
+    "word": "Eclipsis",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 55,
+    "word": "Bioluminescence",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 56,
+    "word": "Efflorescence",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 57,
+    "word": "Verdure",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 58,
+    "word": "Sylvan",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 59,
+    "word": "Arboreal",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 60,
+    "word": "Riparian",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 61,
+    "word": "Estuary",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 62,
+    "word": "Tundra",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 63,
+    "word": "Canopy",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 64,
+    "word": "Wildflower",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 65,
+    "word": "Evergreen",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 66,
+    "word": "Perennial",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 67,
+    "word": "Ephemeral",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 68,
+    "word": "Vernal",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 69,
+    "word": "Autumnal",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 70,
+    "word": "Boreal",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 71,
+    "word": "Celestial",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 72,
+    "word": "Nocturnal",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 73,
+    "word": "Diurnal",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 74,
+    "word": "Luminous",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 75,
+    "word": "Iridescent",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 76,
+    "word": "Opalescent",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 77,
+    "word": "Gossamer",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 78,
+    "word": "Dewdrop",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 79,
+    "word": "Moonlit",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 80,
+    "word": "Starfall",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 81,
+    "word": "Sonder",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 82,
+    "word": "Liminal",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 83,
+    "word": "Existential",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 84,
+    "word": "Serendipity",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 85,
+    "word": "Epiphany",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 86,
+    "word": "Nostalgia",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "easy"
+  },
+  {
+    "id": 87,
+    "word": "Solitude",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 88,
+    "word": "Introspection",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 89,
+    "word": "Contemplation",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 90,
+    "word": "Transcendence",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 91,
+    "word": "Impermanence",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 92,
+    "word": "Paradox",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 93,
+    "word": "Dichotomy",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 94,
+    "word": "Ambivalence",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 95,
+    "word": "Ineffable",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 96,
+    "word": "Sublime",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 97,
+    "word": "Profound",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 98,
+    "word": "Authenticity",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 99,
+    "word": "Resilience",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "easy"
+  },
+  {
+    "id": 100,
+    "word": "Equanimity",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 101,
+    "word": "Serenity",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 102,
+    "word": "Stoicism",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 103,
+    "word": "Absurdism",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 104,
+    "word": "Nihilism",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 105,
+    "word": "Existentialism",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 106,
+    "word": "Altruism",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "easy"
+  },
+  {
+    "id": 107,
+    "word": "Empathy",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "easy"
+  },
+  {
+    "id": 108,
+    "word": "Intuition",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "easy"
+  },
+  {
+    "id": 109,
+    "word": "Curiosity",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "easy"
+  },
+  {
+    "id": 110,
+    "word": "Wonder",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "easy"
+  },
+  {
+    "id": 111,
+    "word": "Awe",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 112,
+    "word": "Reverie",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 113,
+    "word": "Mindfulness",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "easy"
+  },
+  {
+    "id": 114,
+    "word": "Presence",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "easy"
+  },
+  {
+    "id": 115,
+    "word": "Stillness",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 116,
+    "word": "Becoming",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 117,
+    "word": "Belonging",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "easy"
+  },
+  {
+    "id": 118,
+    "word": "Meaning",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "easy"
+  },
+  {
+    "id": 119,
+    "word": "Purpose",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "easy"
+  },
+  {
+    "id": 120,
+    "word": "Entropy",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "id": 121,
+    "word": "Gravity",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "id": 122,
+    "word": "Relativity",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "id": 123,
+    "word": "Singularity",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 124,
+    "word": "Quantum",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "id": 125,
+    "word": "Superposition",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 126,
+    "word": "Interference",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "id": 127,
+    "word": "Diffraction",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 128,
+    "word": "Refraction",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 129,
+    "word": "Parallax",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 130,
+    "word": "Resonance",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "id": 131,
+    "word": "Oscillation",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 132,
+    "word": "Frequency",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "id": 133,
+    "word": "Spectrum",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "id": 134,
+    "word": "Photon",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "id": 135,
+    "word": "Neutrino",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 136,
+    "word": "Isotope",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 137,
+    "word": "Catalyst",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "id": 138,
+    "word": "Molecule",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "id": 139,
+    "word": "Atom",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "id": 140,
+    "word": "Genome",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "id": 141,
+    "word": "Synapse",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 142,
+    "word": "Neuron",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "id": 143,
+    "word": "Neuroplasticity",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 144,
+    "word": "Homeostasis",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 145,
+    "word": "Photosynthesis",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "id": 146,
+    "word": "Mycelium",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 147,
+    "word": "Ecosystem",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "id": 148,
+    "word": "Evolution",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "id": 149,
+    "word": "Mutation",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "id": 150,
+    "word": "Adaptation",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "id": 151,
+    "word": "Fibonacci",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 152,
+    "word": "Fractal",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 153,
+    "word": "Algorithm",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "medium"
+  },
+  {
+    "id": 154,
+    "word": "Recursion",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 155,
+    "word": "Emergence",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 156,
+    "word": "Entanglement",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 157,
+    "word": "Relic",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "rare"
+  },
+  {
+    "id": 158,
+    "word": "Fossil",
+    "language": "English",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "id": 159,
+    "word": "Mellifluous",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 160,
+    "word": "Eloquent",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 161,
+    "word": "Ethereal",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 162,
+    "word": "Incandescent",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 163,
+    "word": "Resplendent",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 164,
+    "word": "Effervescent",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 165,
+    "word": "Melancholy",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 166,
+    "word": "Sonorous",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 167,
+    "word": "Whimsical",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 168,
+    "word": "Enchanting",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 169,
+    "word": "Bewitching",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 170,
+    "word": "Poignant",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 171,
+    "word": "Evocative",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 172,
+    "word": "Nostalgic",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 173,
+    "word": "Dreamlike",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 174,
+    "word": "Timeless",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 175,
+    "word": "Unspoken",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 176,
+    "word": "Elusive",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 177,
+    "word": "Fleeting",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 178,
+    "word": "Tenderness",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 179,
+    "word": "Solace",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 180,
+    "word": "Yearning",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 181,
+    "word": "Longing",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 182,
+    "word": "Rapture",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 183,
+    "word": "Bliss",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 184,
+    "word": "Tranquility",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 185,
+    "word": "Daydream",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 186,
+    "word": "Moonlight",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 187,
+    "word": "Starlight",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 188,
+    "word": "Wanderer",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 189,
+    "word": "Wayfarer",
+    "language": "English",
+    "category": "Literature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 190,
+    "word": "Defenestration",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 191,
+    "word": "Gobbledygook",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 192,
+    "word": "Kerfuffle",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 193,
+    "word": "Bamboozle",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 194,
+    "word": "Hullabaloo",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 195,
+    "word": "Flabbergasted",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "medium"
+  },
+  {
+    "id": 196,
+    "word": "Absquatulate",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 197,
+    "word": "Collywobbles",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 198,
+    "word": "Lollygag",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 199,
+    "word": "Brouhaha",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 200,
+    "word": "Skedaddle",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 201,
+    "word": "Noodling",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 202,
+    "word": "Fiddlesticks",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 203,
+    "word": "Whippersnapper",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 204,
+    "word": "Cattywampus",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 205,
+    "word": "Malarkey",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "medium"
+  },
+  {
+    "id": 206,
+    "word": "Shenanigans",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "medium"
+  },
+  {
+    "id": 207,
+    "word": "Bumfuzzle",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 208,
+    "word": "Snollygoster",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 209,
+    "word": "Widdershins",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 210,
+    "word": "Goblin",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "easy"
+  },
+  {
+    "id": 211,
+    "word": "Thingamajig",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "medium"
+  },
+  {
+    "id": 212,
+    "word": "Whatchamacallit",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "medium"
+  },
+  {
+    "id": 213,
+    "word": "Razzmatazz",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 214,
+    "word": "Poppycock",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 215,
+    "word": "Balderdash",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 216,
+    "word": "Hogwash",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 217,
+    "word": "Nonsense",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "easy"
+  },
+  {
+    "id": 218,
+    "word": "Flummox",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 219,
+    "word": "Dillydally",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 220,
+    "word": "Pettifog",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 221,
+    "word": "Absurdity",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "medium"
+  },
+  {
+    "id": 222,
+    "word": "Quibble",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "medium"
+  },
+  {
+    "id": 223,
+    "word": "Rambunctious",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "medium"
+  },
+  {
+    "id": 224,
+    "word": "Persnickety",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 225,
+    "word": "Squeegee",
+    "language": "English",
+    "category": "Oddity",
+    "difficulty": "rare"
+  },
+  {
+    "id": 226,
+    "word": "Euphoria",
+    "language": "English",
+    "category": "Emotion",
+    "difficulty": "medium"
+  },
+  {
+    "id": 227,
+    "word": "Contentment",
+    "language": "English",
+    "category": "Emotion",
+    "difficulty": "easy"
+  },
+  {
+    "id": 228,
+    "word": "Elation",
+    "language": "English",
+    "category": "Emotion",
+    "difficulty": "medium"
+  },
+  {
+    "id": 229,
+    "word": "Gratitude",
+    "language": "English",
+    "category": "Emotion",
+    "difficulty": "easy"
+  },
+  {
+    "id": 230,
+    "word": "Compassion",
+    "language": "English",
+    "category": "Emotion",
+    "difficulty": "easy"
+  },
+  {
+    "id": 231,
+    "word": "Affection",
+    "language": "English",
+    "category": "Emotion",
+    "difficulty": "easy"
+  },
+  {
+    "id": 232,
+    "word": "Vulnerability",
+    "language": "English",
+    "category": "Emotion",
+    "difficulty": "medium"
+  },
+  {
+    "id": 233,
+    "word": "Anticipation",
+    "language": "English",
+    "category": "Emotion",
+    "difficulty": "easy"
+  },
+  {
+    "id": 234,
+    "word": "Envy",
+    "language": "English",
+    "category": "Emotion",
+    "difficulty": "easy"
+  },
+  {
+    "id": 235,
+    "word": "Bittersweet",
+    "language": "English",
+    "category": "Emotion",
+    "difficulty": "medium"
+  },
+  {
+    "id": 236,
+    "word": "Restlessness",
+    "language": "English",
+    "category": "Emotion",
+    "difficulty": "medium"
+  },
+  {
+    "id": 237,
+    "word": "Homesickness",
+    "language": "English",
+    "category": "Emotion",
+    "difficulty": "medium"
+  },
+  {
+    "id": 238,
+    "word": "Limerence",
+    "language": "English",
+    "category": "Emotion",
+    "difficulty": "rare"
+  },
+  {
+    "id": 239,
+    "word": "Anemoia",
+    "language": "English",
+    "category": "Emotion",
+    "difficulty": "rare"
+  },
+  {
+    "id": 240,
+    "word": "Solivagant",
+    "language": "English",
+    "category": "Emotion",
+    "difficulty": "rare"
+  },
+  {
+    "id": 241,
+    "word": "Melancholia",
+    "language": "English",
+    "category": "Emotion",
+    "difficulty": "rare"
+  },
+  {
+    "id": 242,
+    "word": "Nomad",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "medium"
+  },
+  {
+    "id": 243,
+    "word": "Roam",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "easy"
+  },
+  {
+    "id": 244,
+    "word": "Odyssey",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "medium"
+  },
+  {
+    "id": 245,
+    "word": "Expedition",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "medium"
+  },
+  {
+    "id": 246,
+    "word": "Voyage",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "medium"
+  },
+  {
+    "id": 247,
+    "word": "Pilgrimage",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "medium"
+  },
+  {
+    "id": 248,
+    "word": "Sojourn",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "rare"
+  },
+  {
+    "id": 249,
+    "word": "Journey",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "easy"
+  },
+  {
+    "id": 250,
+    "word": "Excursion",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "easy"
+  },
+  {
+    "id": 251,
+    "word": "Drifter",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "medium"
+  },
+  {
+    "id": 252,
+    "word": "Vagabond",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "medium"
+  },
+  {
+    "id": 253,
+    "word": "Peregrine",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "rare"
+  },
+  {
+    "id": 254,
+    "word": "Elsewhere",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "easy"
+  },
+  {
+    "id": 255,
+    "word": "Faraway",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "easy"
+  },
+  {
+    "id": 256,
+    "word": "Horizon",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "easy"
+  },
+  {
+    "id": 257,
+    "word": "Departure",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "easy"
+  },
+  {
+    "id": 258,
+    "word": "Arrival",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "easy"
+  },
+  {
+    "id": 259,
+    "word": "Passage",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "medium"
+  },
+  {
+    "id": 260,
+    "word": "Waypoint",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "medium"
+  },
+  {
+    "id": 261,
+    "word": "Crossroads",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "medium"
+  },
+  {
+    "id": 262,
+    "word": "Detour",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "easy"
+  },
+  {
+    "id": 263,
+    "word": "Threshold",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "medium"
+  },
+  {
+    "id": 264,
+    "word": "Terra incognita",
+    "language": "English",
+    "category": "Travel",
+    "difficulty": "rare"
+  },
+  {
+    "id": 265,
+    "word": "Muse",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "id": 266,
+    "word": "Avant-garde",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "rare"
+  },
+  {
+    "id": 267,
+    "word": "Imagination",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "easy"
+  },
+  {
+    "id": 268,
+    "word": "Inspiration",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "easy"
+  },
+  {
+    "id": 269,
+    "word": "Expression",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "easy"
+  },
+  {
+    "id": 270,
+    "word": "Aesthetic",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "id": 271,
+    "word": "Creativity",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "easy"
+  },
+  {
+    "id": 272,
+    "word": "Improvisation",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "id": 273,
+    "word": "Composition",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "id": 274,
+    "word": "Chiaroscuro",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "rare"
+  },
+  {
+    "id": 275,
+    "word": "Renaissance",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "id": 276,
+    "word": "Surrealism",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "id": 277,
+    "word": "Impressionism",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "id": 278,
+    "word": "Minimalism",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "id": 279,
+    "word": "Abstract",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "id": 280,
+    "word": "Flourish",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "id": 281,
+    "word": "Craft",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "easy"
+  },
+  {
+    "id": 282,
+    "word": "Artisan",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "id": 283,
+    "word": "Handmade",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "easy"
+  },
+  {
+    "id": 284,
+    "word": "Patina",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "rare"
+  },
+  {
+    "id": 285,
+    "word": "Texture",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "easy"
+  },
+  {
+    "id": 286,
+    "word": "Harmony",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "easy"
+  },
+  {
+    "id": 287,
+    "word": "Dissonance",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "rare"
+  },
+  {
+    "id": 288,
+    "word": "Rhythm",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "easy"
+  },
+  {
+    "id": 289,
+    "word": "Cadence",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "rare"
+  },
+  {
+    "id": 290,
+    "word": "Motif",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "rare"
+  },
+  {
+    "id": 291,
+    "word": "Palette",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "easy"
+  },
+  {
+    "id": 292,
+    "word": "Silhouette",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "id": 293,
+    "word": "Collage",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "id": 294,
+    "word": "Mosaic",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "id": 295,
+    "word": "Sketch",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "easy"
+  },
+  {
+    "id": 296,
+    "word": "Gesture",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "easy"
+  },
+  {
+    "id": 297,
+    "word": "Form",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "easy"
+  },
+  {
+    "id": 298,
+    "word": "Balance",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "easy"
+  },
+  {
+    "id": 299,
+    "word": "Contrast",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "easy"
+  },
+  {
+    "id": 300,
+    "word": "Perspective",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "easy"
+  },
+  {
+    "id": 301,
+    "word": "Atmosphere",
+    "language": "English",
+    "category": "Art",
+    "difficulty": "medium"
+  },
+  {
+    "id": 302,
+    "word": "Chronos",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "rare"
+  },
+  {
+    "id": 303,
+    "word": "Eternal",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "easy"
+  },
+  {
+    "id": 304,
+    "word": "Momentary",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "medium"
+  },
+  {
+    "id": 305,
+    "word": "Perpetual",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "medium"
+  },
+  {
+    "id": 306,
+    "word": "Ancient",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "easy"
+  },
+  {
+    "id": 307,
+    "word": "Archaic",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "rare"
+  },
+  {
+    "id": 308,
+    "word": "Anachronism",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "rare"
+  },
+  {
+    "id": 309,
+    "word": "Yesterday",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "easy"
+  },
+  {
+    "id": 310,
+    "word": "Tomorrow",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "easy"
+  },
+  {
+    "id": 311,
+    "word": "Present",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "easy"
+  },
+  {
+    "id": 312,
+    "word": "Now",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "easy"
+  },
+  {
+    "id": 313,
+    "word": "Dawn",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "easy"
+  },
+  {
+    "id": 314,
+    "word": "Midnight",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "easy"
+  },
+  {
+    "id": 315,
+    "word": "Dusk",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "easy"
+  },
+  {
+    "id": 316,
+    "word": "Daybreak",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "easy"
+  },
+  {
+    "id": 317,
+    "word": "Interlude",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "rare"
+  },
+  {
+    "id": 318,
+    "word": "Interval",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "medium"
+  },
+  {
+    "id": 319,
+    "word": "Transition",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "medium"
+  },
+  {
+    "id": 320,
+    "word": "Recurrence",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "rare"
+  },
+  {
+    "id": 321,
+    "word": "Eternity",
+    "language": "English",
+    "category": "Time",
+    "difficulty": "medium"
+  },
+  {
+    "id": 322,
+    "word": "Hygge",
+    "language": "Danish",
+    "category": "Lifestyle",
+    "difficulty": "easy"
+  },
+  {
+    "id": 323,
+    "word": "Lagom",
+    "language": "Swedish",
+    "category": "Philosophy",
+    "difficulty": "easy"
+  },
+  {
+    "id": 324,
+    "word": "Kilig",
+    "language": "Filipino",
+    "category": "Emotion",
+    "difficulty": "rare"
+  },
+  {
+    "id": 325,
+    "word": "Trepverter",
+    "language": "Yiddish",
+    "category": "Humor",
+    "difficulty": "rare"
+  },
+  {
+    "id": 326,
+    "word": "Gigil",
+    "language": "Filipino",
+    "category": "Emotion",
+    "difficulty": "rare"
+  },
+  {
+    "id": 327,
+    "word": "Mamihlapinatapai",
+    "language": "Yaghan",
+    "category": "Emotion",
+    "difficulty": "rare"
+  },
+  {
+    "id": 328,
+    "word": "Kyoiku",
+    "language": "Japanese",
+    "category": "Education",
+    "difficulty": "medium"
+  },
+  {
+    "id": 329,
+    "word": "Syrma",
+    "language": "Arabic",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 330,
+    "word": "Namaste",
+    "language": "Sanskrit",
+    "category": "Philosophy",
+    "difficulty": "easy"
+  },
+  {
+    "id": 331,
+    "word": "Vesper",
+    "language": "Latin",
+    "category": "Nature",
+    "difficulty": "medium"
+  },
+  {
+    "id": 332,
+    "word": "Seren",
+    "language": "Welsh",
+    "category": "Nature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 333,
+    "word": "Fika",
+    "language": "Swedish",
+    "category": "Lifestyle",
+    "difficulty": "easy"
+  },
+  {
+    "id": 334,
+    "word": "Sisu",
+    "language": "Finnish",
+    "category": "Character",
+    "difficulty": "easy"
+  },
+  {
+    "id": 335,
+    "word": "Breeze",
+    "language": "English",
+    "category": "Nature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 336,
+    "word": "Beluwo",
+    "language": "Usbek",
+    "category": "Sound",
+    "difficulty": "rare"
+  },
+  {
+    "id": 337,
+    "word": "Ǥoa",
+    "language": "Khoisan",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 338,
+    "word": "Untranslatable",
+    "language": "English",
+    "category": "Philosophy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 339,
+    "word": "Sillage",
+    "language": "French",
+    "category": "Art",
+    "difficulty": "rare"
+  },
+  {
+    "id": 340,
+    "word": "Dérive",
+    "language": "French",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 341,
+    "word": "Flâneur",
+    "language": "French",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 342,
+    "word": "Gezellig",
+    "language": "Dutch",
+    "category": "Lifestyle",
+    "difficulty": "rare"
+  },
+  {
+    "id": 343,
+    "word": "Satori",
+    "language": "Japanese",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 344,
+    "word": "Attar",
+    "language": "Persian",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 345,
+    "word": "Mirage",
+    "language": "French",
+    "category": "Nature",
+    "difficulty": "easy"
+  },
+  {
+    "id": 346,
+    "word": "Amanent",
+    "language": "Greek",
+    "category": "Sound",
+    "difficulty": "rare"
+  },
+  {
+    "id": 347,
+    "word": "Aeolian",
+    "language": "Greek",
+    "category": "Nature",
+    "difficulty": "rare"
+  },
+  {
+    "id": 348,
+    "word": "Taranta",
+    "language": "Italian",
+    "category": "Sound",
+    "difficulty": "rare"
+  },
+  {
+    "id": 349,
+    "word": "Sprezzatura",
+    "language": "Italian",
+    "category": "Character",
+    "difficulty": "rare"
+  },
+  {
+    "id": 350,
+    "word": "Sigil",
+    "language": "English",
+    "category": "Mystery",
+    "difficulty": "rare"
+  },
+  {
+    "id": 351,
+    "word": "Numen",
+    "language": "Latin",
+    "category": "Mystery",
+    "difficulty": "rare"
+  },
+  {
+    "id": 352,
+    "word": "Pneuma",
+    "language": "Greek",
+    "category": "Philosophy",
+    "difficulty": "rare"
+  },
+  {
+    "id": 353,
+    "word": "Toska",
+    "language": "Russian",
+    "category": "Emotion",
+    "difficulty": "rare"
+  }
 ]

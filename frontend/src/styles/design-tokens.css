@@ -1,0 +1,74 @@
+/* =========================================================
+   OLI STUDIO — Design Tokens (fuente única de diseño)
+   Cambia aquí colores, tipografía, tamaños y animaciones.
+   Base por defecto: modo oscuro (retro-moderno editorial).
+   ========================================================= */
+
+@theme {
+  /* ── Colores (Oli Studio) ───────────────────────────── */
+  /* Valores fijos del sistema (ver diseno.md) */
+  --color-oli-dark: #161616; /* carbón: textos sobre claro / fondo oscuro */
+  --color-oli-light: #eae5d9; /* crema: textos sobre oscuro / sección clara */
+  /* Acento terracota: resaltados, botones, acentos tipográficos */
+  --color-oli-accent: #c96a52;
+
+  /* Rol (se invierten en modo claro `.light`) */
+  --color-oli-bg: #161616; /* fondo de la página */
+  --color-oli-primary: #eae5d9; /* texto principal */
+  --color-oli-muted: #a8a297; /* texto secundario / etiquetas */
+
+  /* ── Tipografía ─────────────────────────────────────── */
+  /* Display (serif): palabras del reel y logo */
+  --font-display: "Playfair Display", serif;
+  /* UI (sans): botones, frases, etiquetas */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Tamaños de texto */
+  --text-logo: 1.875rem; /* M E R A K I */
+  --text-tagline: 0.75rem; /* "Discover something new." */
+  --text-ui: 0.75rem; /* botones "Discover" / "Copy" */
+  --text-caption: 0.625rem; /* hints y microtexto */
+  --text-reel: clamp(2.25rem, 9vw, 3.75rem); /* palabras del reel */
+
+  /* Letter-spacing (uppercase elegante) */
+  --tracking-logo: 0.2em;
+  --tracking-ui: 0.1em;
+
+  /* ── Animaciones ────────────────────────────────────── */
+  --animate-reel-land: reel-land 500ms cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-fade-up: fade-up 700ms cubic-bezier(0.16, 1, 0.3, 1) both;
+
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes reel-land {
+    0% {
+      transform: scale(1.05);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+}
+
+@custom-variant light (&:where(.light, .light *));
+
+/* ── Modo claro: invierte los tokens (sección pergamino) ─ */
+@layer base {
+  .light {
+    --color-oli-bg: #eae5d9;
+    --color-oli-primary: #161616;
+    --color-oli-muted: #6e6a60;
+    --color-oli-accent: #c96a52;
+  }
+}
