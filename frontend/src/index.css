@@ -41,3 +41,13 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
 }
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  .dark {
+    --color-meraki-bg: #161616;
+    --color-meraki-primary: #f7f6f2;
+    --color-meraki-secondary: #a3a3a3;
+  }
+}

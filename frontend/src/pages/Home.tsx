@@ -4,6 +4,7 @@ import { getRandomWord, getAllWords } from "../services/wordService";
 import Logo from "../components/Logo";
 import WordReel from "../components/WordReel";
 import DiscoverButton from "../components/DiscoverButton";
+import DarkModeToggle from "../components/DarkModeToggle";
 
 export default function Home() {
   const [words, setWords] = useState<Word[]>([]);
@@ -98,6 +99,8 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center px-6">
+      <DarkModeToggle />
+
       <div className="animate-fade-up">
         <Logo />
       </div>

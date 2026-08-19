@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F7F6F2"/>
+  <text x="600" y="250" font-family="'Cormorant Garamond', Georgia, serif" font-size="96" font-weight="600" letter-spacing="8" fill="#171717" text-anchor="middle">MERAKI</text>
+  <text x="600" y="330" font-family="'Courier New', monospace" font-size="24" letter-spacing="12" fill="#737373" text-anchor="middle">DISCOVER SOMETHING NEW.</text>
+  <text x="600" y="420" font-family="'Cormorant Garamond', Georgia, serif" font-size="40" letter-spacing="2" fill="#171717" opacity="0.3" text-anchor="middle">Saudade · Komorebi · Ikigai · Petrichor</text>
+  <rect x="540" y="470" width="120" height="2" fill="#171717" opacity="0.4"/>
+</svg>

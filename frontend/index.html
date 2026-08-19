@@ -3,8 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Meraki — Discover something new." />
+    <meta name="description" content="Meraki — Descubre palabras inusuales del mundo y hazlas parte de tu vocabulario. Discover something new." />
+    <meta name="theme-color" content="#F7F6F2" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Meraki" />
+    <meta property="og:title" content="Meraki — Discover something new." />
+    <meta property="og:description" content="Un reel de palabras inusuales del mundo. Gira, descubre e investiga por tu cuenta." />
+    <meta property="og:image" content="/og-image.svg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Meraki — Discover something new." />
+    <meta name="twitter:description" content="Un reel de palabras inusuales del mundo. Gira, descubre e investiga por tu cuenta." />
+    <meta name="twitter:image" content="/og-image.svg" />
+
+    <script>
+      try {
+        var t = localStorage.getItem("meraki-theme");
+        if (t === "dark" || (!t && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+          document.documentElement.classList.add("dark");
+        }
+      } catch (e) {}
+    </script>
+
     <title>Meraki</title>
   </head>
   <body>
