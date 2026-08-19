@@ -43,15 +43,15 @@ La app se divide en **API (backend)** y **frontend**. Se recomienda: backend en 
 ### 2. Frontend → Vercel
 
 1. Importa el repo en [Vercel](https://vercel.com). La config viene en `vercel.json` (framework Vite, `outputDirectory` en `frontend/dist`).
-2. Agrega la variable de entorno de la API:
+2. Agrega la variable de entorno de la API (solo el origen, **sin** `/api`):
 
-   | Variable          | valor                              |
-   | ----------------- | ---------------------------------- |
-   | `VITE_API_URL`    | `https://tu-api.onrender.com`      |
+   | Variable          | valor                           |
+   | ----------------- | ------------------------------- |
+   | `VITE_API_URL`    | `https://tu-api.onrender.com`   |
 
 3. Build manual de prueba: `npm run build`.
 
-> Nota: el frontend usa `VITE_API_URL` si está definida; si no, llama a `/api` en el mismo origen. El CORS del backend está abierto a propósito para este caso.
+> Nota: el frontend arma la URL automáticamente (`VITE_API_URL + "/api"`); si no está definida, usa `/api` en el mismo origen. Tolerante si incluyes `/api` al final. El CORS del backend está abierto a propósito.
 
 ### 3. Verificación
 

@@ -1,8 +1,10 @@
 import type { Word } from "../types/word";
 
-const API_BASE = "/api";
+const API_ORIGIN = (import.meta.env.VITE_API_URL ?? "")
+  .replace(/\/+$/, "")
+  .replace(/\/api$/, "");
 
-const API_URL = import.meta.env.VITE_API_URL ?? API_BASE;
+const API_URL = API_ORIGIN ? `${API_ORIGIN}/api` : "/api";
 
 async function request<T>(path: string): Promise<T> {
   const url = `${API_URL}${path}`;
