@@ -32,7 +32,7 @@ export default function Home() {
         if (active) setWords(res.words);
       })
       .catch(() => {
-        if (active) setError("No pudimos cargar las palabras.");
+        if (active) setError("Could not load the words.");
       })
       .finally(() => {
         if (active) setIsWordsLoading(false);
