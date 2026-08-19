@@ -1,7 +1,7 @@
 {
   "framework": "vite",
   "buildCommand": "npm run build -w frontend",
-  "installCommand": "npm ci",
+  "installCommand": "npm ci --include=dev",
   "outputDirectory": "frontend/dist",
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }

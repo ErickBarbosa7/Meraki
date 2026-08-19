@@ -12,9 +12,7 @@
     "build": "npm run build -w backend && npm run build -w frontend"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.3.3",
-    "concurrently": "^9.1.2",
-    "tailwindcss": "^4.3.3"
+    "concurrently": "^9.1.2"
   },
   "allowScripts": {
     "esbuild@0.28.2": true
