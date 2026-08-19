@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { ReactNode } from "react";
 import type { Word } from "../types/word";
+import { playLand, playTick } from "../utils/sfx";
 
 const PLACEHOLDER = "MERAKI";
 const ROW = 128;
@@ -49,6 +50,7 @@ export default function WordReel({
   const [strip, setStrip] = useState<Word[] | null>(null);
   const [centeredIndex, setCenteredIndex] = useState(BUFFERS - 1);
   const [transitionMs, setTransitionMs] = useState(0);
+  const [settling, setSettling] = useState(false);
   const timerRef = useRef<number | null>(null);
 
   useEffect(() => {
@@ -65,12 +67,21 @@ export default function WordReel({
     setStrip(nextStrip);
     setCenteredIndex(BUFFERS - 1);
     setTransitionMs(0);
+    setSettling(false);
 
     let i = 0;
     const step = () => {
       setCenteredIndex(i + BUFFERS);
-      setTransitionMs(i < seq.length - 1 ? delays[i] : 350);
-      if (i < seq.length - 1) {
+      const last = i === seq.length - 1;
+      if (last) {
+        setSettling(true);
+        setTransitionMs(650);
+        playLand();
+      } else {
+        setTransitionMs(delays[i]);
+        playTick(i / (seq.length - 1));
+      }
+      if (!last) {
         timerRef.current = window.setTimeout(() => {
           i += 1;
           step();
@@ -115,17 +126,30 @@ export default function WordReel({
           : ""
       }`}
       style={{
-        height: isSpinning ? WINDOW_SPINNING : WINDOW_IDLE,
-        transition: "height 500ms cubic-bezier(0.16, 1, 0.3, 1)",
+        height: isSpinning && !settling ? WINDOW_SPINNING : WINDOW_IDLE,
+        transition:
+          "height 650ms cubic-bezier(0.22, 1, 0.36, 1)",
       }}
     >
       <div
         className="flex flex-col"
         style={{
           transform: `translateY(${
-            isSpinning ? (1 - centeredIndex) * ROW : -centeredIndex * ROW
+            isSpinning && !settling
+              ? (1 - centeredIndex) * ROW
+              : -centeredIndex * ROW
           }px)`,
-          transition: `transform ${isSpinning ? transitionMs : 500}ms ease-in-out`,
+          transition: `transform ${
+            isSpinning && settling
+              ? 650
+              : isSpinning
+                ? transitionMs
+                : 0
+          }ms ${
+            isSpinning && settling
+              ? "cubic-bezier(0.22, 1, 0.36, 1)"
+              : "ease-in-out"
+          }`,
         }}
       >
         {strip.map((w, k) => (

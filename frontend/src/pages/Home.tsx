@@ -117,8 +117,13 @@ export default function Home() {
       <DarkModeToggle />
 
       {/* Creatividad: decorativa, solo en pantallas grandes para no robar espacio en móvil */}
-      <div className="pointer-events-none absolute left-6 top-1/2 hidden w-64 -translate-y-1/2 animate-fade-up lg:block lg:w-72 xl:left-10">
+      <div className="pointer-events-none absolute left-[6%] top-1/2 hidden w-80 -translate-y-1/2 animate-fade-up lg:block xl:left-[8%] xl:w-96">
         <LottieAnimation data={creativity} className="h-auto w-full" />
+      </div>
+
+      {/* Avión (web): decorativo, al lado derecho */}
+      <div className="pointer-events-none absolute right-[8%] top-1/2 hidden -translate-y-1/2 animate-fade-up lg:block xl:right-[10%]">
+        <LottieAnimation data={plane} className="h-44 w-auto xl:h-52" />
       </div>
 
       {/* Contenedor principal: mobile-first, con safe-area para notch/gestos */}
