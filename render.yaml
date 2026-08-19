@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: meraki-api
+    runtime: node
+    plan: free
+    repo: https://github.com/ErickBarbosa7/Meraki.git
+    branch: develop
+    healthCheckPath: /api/words
+    buildCommand: npm ci && npm run build -w meraki-backend
+    startCommand: npm run start -w meraki-backend
+    envVars:
+      - key: NODE_VERSION
+        value: 22.0.0

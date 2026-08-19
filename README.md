@@ -27,6 +27,37 @@ npm run dev        # levanta backend (:4000) y frontend (:5173)
 
 Abre **http://localhost:5173**.
 
+## 🚢 Desplegar
+
+La app se divide en **API (backend)** y **frontend**. Se recomienda: backend en **Render**, frontend en **Vercel**.
+
+### 1. Backend → Render
+
+1. Entra a [Render](https://render.com) → **New → Blueprint** y conecta el repo (o configura un Web Service manual con `render.yaml` como guía).
+2. Verifica los valores de `render.yaml`:
+   - `buildCommand`: `npm ci && npm run build -w meraki-backend`
+   - `startCommand`: `npm run start -w meraki-backend`
+3. Render inyecta `PORT` automáticamente (el código usa `process.env.PORT ?? 4000`).
+4. Copia la URL resultante (ej. `https://meraki-api.onrender.com`).
+
+### 2. Frontend → Vercel
+
+1. Importa el repo en [Vercel](https://vercel.com). La config viene en `vercel.json` (framework Vite, `outputDirectory` en `frontend/dist`).
+2. Agrega la variable de entorno de la API:
+
+   | Variable          | valor                              |
+   | ----------------- | ---------------------------------- |
+   | `VITE_API_URL`    | `https://tu-api.onrender.com`      |
+
+3. Build manual de prueba: `npm run build`.
+
+> Nota: el frontend usa `VITE_API_URL` si está definida; si no, llama a `/api` en el mismo origen. El CORS del backend está abierto a propósito para este caso.
+
+### 3. Verificación
+
+- `curl https://tu-api.onrender.com/api/words/random` debe devolver una palabra.
+- Abre la URL de Vercel → la ruleta debe girar y descubrir palabras.
+
 ## 🗂️ Estructura
 
 ```text
